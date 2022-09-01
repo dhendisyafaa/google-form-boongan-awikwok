@@ -16,7 +16,7 @@
         </header>
 
         <main>       
-            <form action="">
+            <form action="proses.php" method="post">
                 <div class="nama">
                     <label for="nama" class="label-input">Nama<span>*</span></label>
                     <input type="text" name="nama" id="nama" placeholder="Your answer" required>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="tanggal-lahir">
                     <label for="tgl-lahir" class="label-input">Tanggal Lahir<span>*</span></label>
-                    <input type="date" required>
+                    <input type="date" name="tanggal-lahir" id="tgl-lahir" required>
                 </div>
                 <div class="gender">
                     <label for="gender" class="label-input">Jenis Kelamin<span>*</span></label>
@@ -44,12 +44,12 @@
                     <label for="agama" class="label-input">Agama<span>*</span></label>
                     <select name="agama" id="agama" required>
                         <option value=""></option>
-                        <option value="">Islam</option>
-                        <option value="">Kristen</option>
-                        <option value="">Katolik</option>
-                        <option value="">Buddha</option>
-                        <option value="">Hindu</option>
-                        <option value="">Konghuchu</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Konghuchu">Konghuchu</option>
                     </select>
                 </div>
                 <div class="alamat">
