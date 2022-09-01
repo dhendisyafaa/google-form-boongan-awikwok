@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Data Siswa</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Data Siswa</h1>
+            <h5>Pendataan siswa kelas XI RPL 5 2028-2029</h5>
+        </header>
+
+        <main>       
+            <form action="">
+                <div class="nama">
+                    <label for="nama" class="label-input">Nama<span>*</span></label>
+                    <input type="text" name="nama" id="nama" placeholder="Your answer" required>
+                </div>
+                <div class="tempat-lahir">
+                    <label for="tempat-lahir" class="label-input">Tempat Lahir<span>*</span></label>
+                    <input type="text" name="tempat-lahir" id="tempat-lahir" placeholder="Your answer" required>
+                </div>
+                <div class="tanggal-lahir">
+                    <label for="tgl-lahir" class="label-input">Tanggal Lahir<span>*</span></label>
+                    <input type="date" required>
+                </div>
+                <div class="gender">
+                    <label for="gender" class="label-input">Jenis Kelamin<span>*</span></label>
+                    
+                    <div class="radio-gender">
+                        <input type="radio" value="Pria" name="gender" id="pria" required>
+                        <label for="pria">Pria</label>
+
+                        <input type="radio" value="Wanita" name="gender" id="wanita" required>
+                        <label for="wanita">Wanita</label>
+                    </div>
+                </div>
+                <div class="agama">
+                    <label for="agama" class="label-input">Agama<span>*</span></label>
+                    <select name="agama" id="agama" required>
+                        <option value=""></option>
+                        <option value="">Islam</option>
+                        <option value="">Kristen</option>
+                        <option value="">Katolik</option>
+                        <option value="">Buddha</option>
+                        <option value="">Hindu</option>
+                        <option value="">Konghuchu</option>
+                    </select>
+                </div>
+                <div class="alamat">
+                    <label for="alamat" class="label-input">Alamat<span>*</span></label>
+                    <textarea name="alamat" id="alamat" required></textarea>
+                </div>
+                <button>Kirim</button>
+            </form>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>Jangan pernah mengirimkan kata sandi melalui Dhendi Formulir</p>
+        
+        <h6>Konten ini dibuat atau di dukung oleh GuluGulu. <a href="">Laporkan Penyalahgunaan</a> - <a href="">Persyaratan Layanan</a> - <a href="">Kebijakan Privasi</a></h6>
+
+        <div class="badge">
+            <p class="dhen">Dhendi</pv>
+            <p>Formulir</p>
+        </div>
+    </footer>
+
+</body>
+</html>
